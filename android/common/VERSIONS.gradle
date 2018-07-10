@@ -5,10 +5,8 @@ def DEFAULT_PLAY_SERVICES_VERSION = "11+"
 def DEFAULT_SUPPORT_LIB_VERSION = "23.0.1"
 
 ext.getApplicationId = { ->
-    def applicationId = "com.marianhello.app"
-    if (findProject(':app') != null) {
-        applicationId = project(':app').android.defaultConfig.applicationId
-    }
+    def applicationId = "com.teg.app"
+
     return applicationId
 }
 
