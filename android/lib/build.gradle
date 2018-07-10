@@ -35,7 +35,7 @@ def FEST_ASSERT_CORE_VERSION = "2.0M10"
 def SUPPORT_TEST_VERSION = "0.5"
 
 apply from: '../common/VERSIONS.gradle'
-def applicationId = getApplicationId()
+def applicationId = 'com.teg.geolocation'
 def playServicesVersion = getPlayServicesVersion()
 def supportLibVersion = getSupportLibVersion()
 def hasGradle3Support = getGradle3Support();
